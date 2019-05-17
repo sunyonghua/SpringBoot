@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: SpringBoot
+  datasource:
+    url: jdbc:mysql://localhost:3306/node_stody?useOldAliasMetadataBehavior=true&useSSL=false
+    username: root
+    password: yy121896
+    driver-class-name: com.mysql.jdbc.Driver
